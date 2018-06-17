@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Array Comparison</title>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/electron-tabs/electron-tabs.css" />
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <div>
+        <div id="checkboxdiv">
+            <input type="checkbox" name="types" value="spaces"> <label>spaces</label>
+            <input type="checkbox" name="types" value="case"> <label>Case-insensitive</label>
+            <input type="checkbox" name="types" value="duplicates"> <label>Remove duplicates</label>
+        </div>
+        <div class="splithigh left">
+            <p>Array1: </p>
+            <textarea id="array1"></textarea>
+        </div>
+        <div class="splithigh centered">
+            <p>Array1 Only: </p>
+            <textarea id="array1only"></textarea>
+        </div>
+        <div class="splithigh right">
+            <p>Array1 or Array2: </p>
+            <textarea id="array1or2"></textarea>
+        </div>
+        </br>
+        <div class="splitlow left">
+            <p>Array2: </p>
+            <textarea id="array2"></textarea>
+        </div>
+        <div class="splitlow centered">
+            <p>Array2 Only: </p>
+            <textarea id="array2only"></textarea>
+        </div>
+        <div class="splitlow right">
+            <p>Array1 and Array2: </p>
+            <textarea id="array1and2"></textarea>
+        </div>
+        <button id="compare">COMPARE</button>
+    </div>
+    <script src="./compare.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "postmanext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sarunyadurai",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "dragula": "latest",
+    "electron": "^2.0.2",
+    "electron-tabs": "^0.9.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "compile-run": "^1.2.2"
+  }
+}
